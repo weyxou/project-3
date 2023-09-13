@@ -1,0 +1,132 @@
+.banner_img {
+  margin-top: 7vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  z-index: -1;
+}
+
+.banner_content {
+  width: 35vw;
+  position: absolute;
+  left: 8vw;
+  top: 58vh;
+  color: #ddd;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner_content h1 {
+  font-size: 4vh;
+  margin-bottom: 2.5vh;
+}
+
+.banner_content p {
+  font-size: 2vh;
+  text-align: justify;
+  line-height: 4vh;
+}
+
+.banner_content button {
+  border-radius: 25px;
+  padding: 1.2vh 3.5vh;
+  margin-top: 2vh;
+  cursor: pointer;
+  border: 3px solid #fff;
+  transition: all .5s ease;
+  width: 40%;
+}
+
+.banner_content button:hover {
+  border: 3px solid rgb(87, 87, 255);
+  box-shadow: 0 0 15px rgb(87, 87, 255);
+  transform: scale(1.08);
+}
+
+.banner_logo {
+  width: 20vw;
+  height: 18vw;
+  position: absolute;
+  left: 8vw;
+  top: 20vh;
+}
+
+.banner_selector {
+  display: flex;
+  width: 90%;
+  overflow: auto;
+  margin: auto;
+  justify-content: space-between;
+  padding: 4vh 0;
+  cursor: pointer;
+}
+
+.banner_selector img {
+  width: 16.5vw;
+  height: 20vh;
+  border-radius: 10px;
+  filter: opacity(80%);
+  transition: all .5s ease;
+}
+
+.banner_selector img:hover {
+  filter: opacity(100%);
+}
+
+.banner_selector_item {
+  border: 3.5px solid #fff;
+  border-radius: 15px;
+  padding: 2px;
+  transition: all .5s ease;
+}
+
+.banner_selector_item:hover {
+  transform: translateY(-8%);
+}
+
+.selected {
+  border: 3.5px solid rgb(87, 87, 255);
+}
+
+@media(max-width:950px) {
+
+  .banner {
+    text-align: center;
+    margin: 10vh 0 0;
+    overflow: hidden;
+    width: 100vw;
+  }
+
+  .banner_selector img {
+    width: 80vw;
+    height: 30vh;
+  }
+
+  .banner_img {
+    width: 100%;
+    height: 55vh;
+  }
+
+  .banner_logo {
+    display: none;
+  }
+
+  .banner_content {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 25vh;
+    color: #ddd;
+  }
+
+  .banner_content p {
+    max-width: 80ch;
+    font-size: 2vh;
+    margin: 0 5%;
+  }
+
+  .banner_content button {
+    margin: 5vh auto;
+  }
+}

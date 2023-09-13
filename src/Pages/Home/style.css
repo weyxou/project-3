@@ -1,0 +1,24 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+  z-index: 99;
+    position: absolute;
+}
+.banner {
+  margin-top: -300px;
+    position: relative;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+@media (max-width: 950px) {
+    .Home {
+        width: 100vw;
+        overflow: hidden;
+    }
+}

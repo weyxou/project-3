@@ -1,0 +1,80 @@
+.PS4 {
+  margin: 5%;
+}
+
+.ps4_title {
+  text-align: center;
+  font-size: 5vh;
+}
+
+.ps4_subtitle {
+  font-size: 2.5vh;
+  color: #666;
+  margin: 3vh 0 2vh;
+  text-align: center;
+}
+
+.ps4_content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ps4_card {
+  width: 30%;
+  cursor: pointer;
+  margin-top: 5vh;
+}
+
+.ps4_card img {
+  width: 100%;
+  height: 30vh;
+  transition: all .5s ease;
+}
+
+
+
+.ps4_card h1 {
+  font-size: 4vh;
+}
+
+.ps4_card p {
+  font-size: 2.5vh;
+  margin-top: 2vh;
+  line-height: 3.5vh;
+}
+
+.ps4_card button {
+  padding: 1.8vh 4vh;
+  border-radius: 25px;
+  border: none;
+  margin-top: 3.5vh;
+  cursor: pointer;
+  background: rgb(87, 87, 255);
+  color: #fff;
+  font-size: 2vh;
+  transition: all .5s ease;
+  box-shadow: 0 0 15px rgb(87, 87, 255);
+}
+
+.ps4_card button:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 25px rgb(87, 87, 255);
+}
+
+@media(max-width:950px) {
+  .ps4_content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ps4_card {
+    width: 80%;
+    margin-top: 10vh;
+  }
+
+  .ps4_card img {
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease;
+  }
+}

@@ -1,0 +1,49 @@
+footer {
+  background: rgb(87, 87, 255);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 8vh 0;
+}
+
+.sony_information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vh;
+}
+
+.sony_information img {
+  width: 30%;
+}
+
+.footer_menu {
+  display: flex;
+  gap: 3vh;
+}
+
+.footer_menu ul li {
+  color: #ddd;
+  font-size: 1.8vh;
+  margin: 1vh 0;
+}
+
+@media(max-width:950px) {
+
+  footer {
+    flex-direction: column;
+  }
+
+  .sony_information {
+    flex-direction: column;
+  }
+
+  .footer_menu {
+    margin-top: 5vh;
+    flex-direction: column;
+  }
+
+  .footer_menu ul li {
+    text-align: center;
+  }
+}

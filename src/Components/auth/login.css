@@ -1,0 +1,73 @@
+.container{
+    margin-top: -100px;
+    background: rgba(242, 241, 241, 0.4);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 450px;
+    /* width: 300px; */
+}
+
+
+.container-reg{
+    width: 300px;
+    height: 450px;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: -100px;
+}
+.container-reg input{
+    border: 1px solid rgb(116, 116, 254);
+    border-radius: 5px;
+    width: 150px;
+    padding: 1px 15px ;
+}
+.container-reg button{
+        margin-top: 10px;
+        background: rgb(116, 116, 254);
+        border: 1px solid rgb(116, 116, 254);
+        color: #fff;
+        width: 100px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .container-reg button:hover{
+        box-shadow: 0 0 10px rgb(93, 93, 253);
+    }
+
+.container-reg form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 8px #d0d0d0;
+}
+.mb-3{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.mb-3 label{
+    text-align: left;
+}
+.container-reg .reg h4{
+    font-size: 13px;
+    font-weight: 200;
+    color: black;
+    text-decoration: none;
+}
+.container-reg .reg p {
+    font-size: 13px;
+    font-weight: 200;
+    color: rgb(116, 116, 254);
+    text-decoration: none;
+}
+.container-reg .reg p:hover{
+    text-shadow: 0 0 5px rgb(93, 93, 253);
+}
