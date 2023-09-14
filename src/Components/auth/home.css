@@ -1,0 +1,26 @@
+.home{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -3%;
+}
+.home h1{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.home button{
+margin-top: 5px;
+background: rgb(116, 116, 254);
+border: 1px solid rgb(116, 116, 254);
+color: #fff;
+width: 100px;
+padding: 5px;
+border-radius: 5px;
+}
+.home button:hover{
+    box-shadow: 0 0 10px rgb(93, 93, 253);
+}

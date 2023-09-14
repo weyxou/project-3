@@ -53,7 +53,8 @@ function Header() {
                 </div>
                 <img className="ps-header-logo" src={playstationLogo} alt="playstation logo" />
                 <button className="header-sign-btn"  >
-                    <a href='/register'>Sign In</a>
+                    {/* <a href='/register'>Sign In</a> */}
+                    <Link to='/register'> Sign in </Link>
                 </button>
                 <nav ref={navRef} className="header-navbar header-navbar-toggle">
                     {navBtnElements}

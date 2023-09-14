@@ -78,20 +78,20 @@ export default function Banner() {
     <div className='banner'>
       <img src={background} alt="banner" className='banner_img' />
 
-      <img data-aos="fade-right" src={BannerIMG} alt="Logo" className='banner_logo' />
+      <img src={BannerIMG} alt="Logo" className='banner_logo' />
 
       <div className="banner_content" data-aos="fade-right">
-        <h1 data-aos="fade-right">{info.title}</h1>
-        <p data-aos="fade-right">{info.desc}</p>
+        <h1>{info.title}</h1>
+        <p>{info.desc}</p>
         <button>more</button>
       </div>
 
       <section className='banner_selector'>
-        <div data-aos="fade" className="banner_selector_item" onClick={(item) => { ChangeBanner(item) }}><img src={GranTurismo} alt="GranTurismo7" /></div>
-        <div data-aos="fade" data-aos-delay="200" className="banner_selector_item" onClick={(item) => { ChangeBanner(item) }}><img src={EndenRing} alt="EndenRing" /></div>
-        <div data-aos="fade" data-aos-delay="400" className="banner_selector_item" onClick={(item) => { ChangeBanner(item) }}><img src={GTA5ONLINE} alt="GTA5" /></div>
-        <div data-aos="fade" data-aos-delay="600" className="banner_selector_item" onClick={(item) => { ChangeBanner(item) }}><img src={AppleTv} alt="AppleTv" /></div>
-        <div data-aos="fade" data-aos-delay="00" className="banner_selector_item" onClick={(item) => { ChangeBanner(item) }}><img src={Promotion} alt="Promotion" /></div>
+        <div className="banner_selector_item" onClick={(item) => { ChangeBanner(item) }}><img src={GranTurismo} alt="GranTurismo7" /></div>
+        <div className="banner_selector_item" onClick={(item) => { ChangeBanner(item) }}><img src={EndenRing} alt="EndenRing" /></div>
+        <div className="banner_selector_item" onClick={(item) => { ChangeBanner(item) }}><img src={GTA5ONLINE} alt="GTA5" /></div>
+        <div className="banner_selector_item" onClick={(item) => { ChangeBanner(item) }}><img src={AppleTv} alt="AppleTv" /></div>
+        <div className="banner_selector_item" onClick={(item) => { ChangeBanner(item) }}><img src={Promotion} alt="Promotion" /></div>
       </section>
     </div>
   )

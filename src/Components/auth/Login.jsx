@@ -73,7 +73,7 @@ try {
   </div>
   <div className='text-center'>
   <button
-   type="submit" class="btn-primary">Login</button>
+   type="submit" class="btn-primary" >Login</button>
   </div>
   <div className='reg'>
 <h4>Dont have an account?</h4>
